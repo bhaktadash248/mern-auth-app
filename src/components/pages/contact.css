@@ -1,0 +1,421 @@
+svg {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .cls-1 {
+    fill: none;
+    stroke: #0db6d5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.5px;
+  
+  }
+  
+  .cls-2 {
+    fill: #0db6d5;
+  
+  }
+  
+  #line1-1 {
+    animation: touchShine1_1 3s ease infinite;
+  
+  }
+  
+  #line1-2 {
+    animation: touchShine1_2 3s ease infinite;
+  
+  }
+  
+  #line2-1 {
+    animation: touchShine2_1 3s ease infinite;
+  
+  }
+  
+  #line2-2 {
+    animation: touchShine2_2 3s ease infinite;
+  
+  }
+  
+  #line3-1 {
+    animation: touchShine3_1 3s ease infinite;
+  
+  }
+  
+  #line3-2 {
+    animation: touchShine3_2 3s ease infinite;
+  
+  }
+  
+  #line4 {
+    animation: touchShine4 3s ease infinite;
+  
+  }
+  
+  #line5-1 {
+    animation: touchShine5_1 3s ease infinite;
+  
+  }
+  
+  #line5-2 {
+    animation: touchShine5_2 3s ease infinite;
+  
+  }
+  
+  #line6-1 {
+    animation: touchShine6_1 3s ease infinite;
+  
+  }
+  
+  #line6-2 {
+    animation: touchShine6_2 3s ease infinite;
+  
+  }
+  
+  #line7-1 {
+    animation: touchShine7_1 3s ease infinite;
+  
+  }
+  
+  #line7-2 {
+    animation: touchShine7_2 3s ease infinite;
+  
+  }
+  
+  #line8 {
+    animation: touchShine8 3s ease infinite;
+  
+  }
+  
+  #line9-1 {
+    animation: touchShine9_1 3s ease infinite;
+  
+  }
+  
+  #line9-2 {
+    animation: touchShine9_2 3s ease infinite;
+  
+  }
+  
+  #line10-1 {
+    animation: touchShine10_1 3s ease infinite;
+  
+  }
+  
+  #line10-2 {
+    animation: touchShine10_2 3s ease infinite;
+  
+  }
+  
+  #line11-1 {
+    animation: touchShine11_1 3s ease infinite;
+  
+  }
+  
+  #line11-2 {
+    animation: touchShine11_2 3s ease infinite;
+  
+  }
+  #headset {
+    animation: touchTalk 3s ease infinite;
+  
+  }
+          
+  
+  @keyframes touchShine1_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      8% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      10% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine1_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      8% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      11% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      13% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine2_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      11% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      14% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      16% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine2_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      14% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      17% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      19% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine3_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      17% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      20% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      22% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine3_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      20% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      23% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      25% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine4 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      23% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      26% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      28% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine5_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      26% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      29% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      31% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine5_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      29% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      32% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      34% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine6_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      32% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      35% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      37% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine6_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      35% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      38% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      40% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine7_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      38% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      41% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      43% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine7_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      41% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      44% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      46% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine8 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      44% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      47% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      49% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine9_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      47% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      50% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      52% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine9_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      50% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      53% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      55% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine10_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      53% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      56% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      58% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine10_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      56% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      59% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      61% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine11_1 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      59% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      62% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      64% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchShine11_2 {
+  
+      0% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      5% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      62% {opacity: 0; transform: scale(1); transform-origin: 50% 50%;}
+      65% {opacity: 1; transform: scale(1.1); transform-origin: 50% 50%;}
+      67% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+      100% {opacity: 1; transform: scale(1); transform-origin: 50% 50%;}
+  
+  }
+  
+  @keyframes touchTalk {
+  
+      0% {transform: rotate(0deg); transform-origin: 50% 70%;}
+      70% {transform: rotate(0deg); transform-origin: 50% 70%;}
+      77% {transform: rotate(10deg); transform-origin: 50% 70%;}
+      91% {transform: rotate(-10deg); transform-origin: 50% 70%;}
+      98% {transform: rotate(0deg); transform-origin: 50% 70%;}
+      100% {transform: rotate(0deg); transform-origin: 50% 70%;}
+  
+  }
+
+  #contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  

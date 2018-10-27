@@ -1,17 +1,29 @@
 import React, { Component } from 'react'
 
-export class Signed extends Component {
+export class Signup extends Component {
   render() {
     return (
-     <div className="container">
+      <div>
+      <div className="container">
       <div className="form-signin">
-        <h2 className="form-signin-heading">Please sign in</h2>
+        <h2 className="form-signin-heading">Please sign up</h2>
         <div>
           <label htmlFor="inputEmail" className="sr-only">Email address</label>
           <input
                 type="text"
                 name="subject"
                 id="inputEmail"
+                required="required"
+                class="form"
+                placeholder="Email address"
+              />
+        </div>
+        <div>
+          <label htmlFor="inputUsername" className="sr-only">Username</label>
+          <input
+                type="text"
+                name="subject"
+                id="inputUsername"
                 required="required"
                 class="form"
                 placeholder="Username"
@@ -26,7 +38,18 @@ export class Signed extends Component {
                 required="required"
                 class="form"
                 placeholder="Password"
-              />          
+              />
+        </div>
+        <div>
+          <label htmlFor="inputConfirmPassword1" className="sr-only">Confirm Password</label>
+          <input
+                type="text"
+                name="subject"
+                id="inputConfirmPassword1"
+                required="required"
+                class="form"
+                placeholder="Confirm Password"
+              />
         </div>
         <div className="checkbox">
           <label>
@@ -36,8 +59,9 @@ export class Signed extends Component {
         <button className="form-btn" type="submit">Sign in</button>
       </div>
     </div>
+      </div>
     )
   }
 }
 
-export default Signed
+export default Signup
