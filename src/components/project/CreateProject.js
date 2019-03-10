@@ -8,6 +8,7 @@ export class CreateProject extends Component {
     super(props);
 
     this.state = {
+      id: "",
       title: "",
       description: ""
     }
@@ -32,6 +33,10 @@ export class CreateProject extends Component {
     return (
       <div className="well well-lg col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
         <form onSubmit={this.handleCreateProject}>
+          <div className="form-group">
+            <label htmlFor="id">Project Id:</label>
+            <input type="text" className="form-control" id="id" onChange={this.handleChange} />
+          </div>
           <div className="form-group">
             <label htmlFor="title">Project Title:</label>
             <input type="text" className="form-control" id="title" onChange={this.handleChange} />

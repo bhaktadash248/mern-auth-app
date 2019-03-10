@@ -1,6 +1,11 @@
+export const create_project = "create_project"
+
 export const createProject = (project) => {
-    return {
-        type: "create_Project",
-        project
+    return (dispatch) => {
+        dispatch({
+            type: "create_Project",
+            project
+        })
+
     }
 }

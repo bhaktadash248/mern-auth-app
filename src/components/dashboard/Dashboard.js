@@ -26,7 +26,7 @@ class Dashboard extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        projects: state.project.projects
+        projects: state.project.data
     }
 }
 
